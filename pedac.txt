@@ -35,7 +35,8 @@ Code
               Algorithm A) 
               -Make new list of strings named 'deck'
               -Initialize the list of strings with 52 explicitly stated cards from our example sections
-              -Shuffle them with fischer Yates (paste Algorithm here)
+              -Shuffle them with fischer Yates 
+              (paste Algorithm here)
 
               numberOfCards = length of our deck
 
