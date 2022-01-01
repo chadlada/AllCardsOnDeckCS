@@ -27,21 +27,20 @@ namespace AllCardsOnDeck
             var deck = new List<string>();
 
             // - Make a loop that goes through the list `suits`
-            for (var deckCount = 0; deckCount < 6; deckCount++)
-            {
-                foreach (var suit in suits)
-                {
-                    //   - Make a loop that goes through the list `ranks`
-                    foreach (var rank in ranks)
-                    {
-                        //     - for each rank, make a new string, called "card" of the form $"{rank} of {suit}"
-                        var card = $"{rank} of {suit}";
 
-                        //     - add that newly formed string to the end of the deck
-                        deck.Add(card);
-                    }
+            foreach (var suit in suits)
+            {
+                //   - Make a loop that goes through the list `ranks`
+                foreach (var rank in ranks)
+                {
+                    //     - for each rank, make a new string, called "card" of the form $"{rank} of {suit}"
+                    var card = $"{rank} of {suit}";
+
+                    //     - add that newly formed string to the end of the deck
+                    deck.Add(card);
                 }
             }
+
 
 
             //   numberOfCards = length of our deck
